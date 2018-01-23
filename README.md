@@ -11,4 +11,4 @@ Find keywords in pptx files.
     find "keyword" in ./test.pptx at slide 1
     find "keyword" in ./test2.pptx at slide 5
 
-It will search pptx files recursively from the current directly.
+It will search pptx files recursively from the current directory.
