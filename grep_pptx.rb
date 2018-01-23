@@ -10,7 +10,7 @@ keyword = ARGV[0]
 def mygrep(dir, keyword, inputfile)
   Dir.glob(dir+"/ppt/slides/*.xml") do |file|
     slidenum = 0
-    if file=~/slide([0-9]).xml/
+    if file=~/slide([0-9]+).xml/
       slidenum = $1.to_i
     end
     f = open(file)
